@@ -1,0 +1,101 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.dfw{
+    display: flex;
+    justify-content: center;
+
+}
+.dfo{
+    display: flex;
+    margin: 20px;
+}
+.dfd{
+    display: flex;
+    margin: 20px;
+}
+.dft{
+    display: flex;
+    margin: 20px;
+}
+
+a{
+    color: #000;
+}
+a:hover{
+    color: green;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center; 
+    background: green;
+    padding: 25px;
+    font-family: 'Tiro Bangla', serif;
+}
+h2:hover{
+    background: green;
+}
+h2{
+    display:block;
+    border-left:5px solid green;
+    padding-left: 5px;
+    font-family: 'Tiro Bangla', serif;
+}
+
+main {
+    margin: 0 auto;
+    width: 1000px;
+    font-size: 20px;
+    display: block;
+    color: black;
+    
+}
+
+footer{
+    color: aliceblue;
+   
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px dotted green;
+    padding: 15px 40px;
+    background: #000;
+}
+.verh{
+    text-align: center;
+    font-size: 30px;
+    max-width: 500px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    display: block;
+}
+ul li::marker{
+    color: green;
+    font-size: 1.5em;}
+li:nth-child(odd){
+    background: green;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.vc{
+margin: 10px 0px 0px 100px;
+display: flex;
+}
+.tel{
+margin: 10px 100px 0px 0px;
+display: flex;
+}
+
+
